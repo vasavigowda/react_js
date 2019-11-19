@@ -1,0 +1,23 @@
+.button{
+    background-color: crimson;
+}
+.textcolor{
+    color: white;
+    border: solid 1px;
+    background-color: rgb(67, 47, 90);
+    margin: 100px 300px;
+    padding: 100px;
+}
+.socialicons{
+    margin-left: 200px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 30px 30px 30px; 
+}
+.input{
+    width: 200px;
+} 
+.checkbox{
+    margin-left:-30px;
+}
