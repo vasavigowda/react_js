@@ -13,11 +13,10 @@ class Signuppage extends Component {
                     <input type="text" placeholder="Please enter a phone num" className="input"></input><br/><br/>
                     <input type="Password" placeholder="Password" className="input"></input><br/><br/>
                     <input type="password" placeholder="Confirm password" className="input"></input><br/><br/>
-                    <input type="checkbox" className="checkbox"></input>
+                    <input type="checkbox" className="checkbox1"></input>
                     I agree to terms and Privacy Policies<br/><br/>
                     <button className="button">Sign up</button>
                 </form>
-                
             </div>
         );
     }

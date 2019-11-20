@@ -2,17 +2,18 @@
     color: white;
     border: solid 1px;
     background-color: rgb(67, 47, 90);
-    margin: 100px 300px;
-    padding: 100px;
+    margin: 0x 370px;
+    padding: 10px;
+    width: 300px;
 }
 .button{
-    background-color: palevioletred;
-    width: 200px;
+    background-color: rgb(209, 19, 82);;
+    width: 300px;
     padding: 5px;
 }
 .input{
-    width: 200px;
+    width: 300px;
 } 
-.checkbox{
-    margin-left: 80px;
+.checkbox1{
+    margin-left: -22px;
 }

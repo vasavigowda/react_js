@@ -1,23 +1,37 @@
-.button{
-    background-color: crimson;
-}
+
 .textcolor{
     color: white;
     border: solid 1px;
     background-color: rgb(67, 47, 90);
-    margin: 100px 300px;
-    padding: 100px;
-}
-.socialicons{
-    margin-left: 200px;
-}
-.icons{
-    display: grid;
-    grid-template-columns: 30px 30px 30px; 
-}
+    width: 400px;;
+    margin: 0px 370px;
+    padding: 10px;
+    }
+    input{
+        background-color:transparent;
+        padding:10px;
+    }
+
 .input{
-    width: 200px;
+    width: 300px;
 } 
 .checkbox{
-    margin-left:-30px;
+    margin-left:7px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.signin{
+    background-color: rgb(209, 19, 82);
+    width: 300px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+span{
+    margin-right:62px;
 }
