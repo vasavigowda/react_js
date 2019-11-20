@@ -2,7 +2,7 @@
 .textcolor{
     color: white;
     border: solid 1px;
-    background-color: rgb(67, 47, 90);
+    background-color: rgb(27, 8, 49);
     width: 400px;;
     margin: 0px 370px;
     padding: 10px;
@@ -12,6 +12,10 @@
         padding:10px;
     }
 
+    ::placeholder {
+      color: white;
+      
+  }
 .input{
     width: 300px;
 } 
@@ -30,7 +34,7 @@ img{
 }
 a{
     text-decoration: none;
-    color:white;
+    color:rgb(255, 255, 255);
 }
 span{
     margin-right:62px;
