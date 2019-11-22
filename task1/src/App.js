@@ -7,6 +7,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Lifecycle from './Components/Lifecycle/Lifecycle';
 import Userinput from './Components/Userinput/Userinput';
 import Useroutput from './Components/Useroutput/Useroutput';
+import State from './Components/Users/State';
+
+
+
+
  
 class App extends Component{
   state={
@@ -25,18 +30,21 @@ class App extends Component{
 render(){
   return(
     <div className="App">
-  <p>{this.state.person[0].name}</p>
-  <button onClick={this.buttonClickHandler}>clickhere</button>
-  <Userinput/>
-  <Useroutput age="22"/>
-  <Useroutput age="22"/>
-  {/* <Router>
+
+      <State/>
+  {/* <p>{this.state.person[0].name}</p>
+  <button onClick={this.buttonClickHandler}>clickhere</button> */}
+  {/* <Userinput/>
+  <Useroutput age="22"/> */}
+  {/* <Useroutput age="22"/> */}
+  <Router>
     <switch>
-       <Route exact path='/' component={Lifecycle}></Route> 
-       <Route exact path='/' component={Signuppage}></Route>
-      <Route exact path='/Signinpage' component={Signinpage}></Route> 
+          
+       {/* <Route exact path='/' component={Lifecycle}></Route>  */}
+       {/* <Route exact path='/' component={Signuppage}></Route> */}
+      {/* <Route exact path='/Signinpage' component={Signinpage}></Route>  */}
            </switch>
- </Router> */}
+ </Router>
 
 </div>
   )
