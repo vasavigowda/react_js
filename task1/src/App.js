@@ -9,6 +9,8 @@ import Userinput from './Components/Userinput/Userinput';
 import Useroutput from './Components/Useroutput/Useroutput';
 import State from './Components/Users/State';
 
+import Bind_func from './Components/Bind_func/Bind_func';
+
 
 
 
@@ -31,7 +33,7 @@ render(){
   return(
     <div className="App">
 
-      <State/>
+      {/* <State/> */}
   {/* <p>{this.state.person[0].name}</p>
   <button onClick={this.buttonClickHandler}>clickhere</button> */}
   {/* <Userinput/>
@@ -39,7 +41,7 @@ render(){
   {/* <Useroutput age="22"/> */}
   <Router>
     <switch>
-          
+          <Route exact path='/' component={Bind_func}></Route> 
        {/* <Route exact path='/' component={Lifecycle}></Route>  */}
        {/* <Route exact path='/' component={Signuppage}></Route> */}
       {/* <Route exact path='/Signinpage' component={Signinpage}></Route>  */}
