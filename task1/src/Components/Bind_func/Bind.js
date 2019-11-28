@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 
 class Bind extends React.Component {
   constructor(props) {
@@ -10,7 +11,16 @@ class Bind extends React.Component {
   }
   render() {
     return (
+      <div>    
+         
+        <Navbar/>
+     
+      <div>
+
       <button onClick={this.handleClick}>I dont like {this.props.currentColor}</button>
+      </div>
+      </div>
+
     );
   }
 } 

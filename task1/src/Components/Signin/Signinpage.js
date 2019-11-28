@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import './Signinpage.css';
 import profile from './profile.jpeg';
 import { SocialIcon } from 'react-social-icons';
+import Navbar from '../Navbar/Navbar';
 
 class Signinpage extends Component {
     render() {
         return (
+            <div>
+            <div>
+                <Navbar/>
+            </div>
             <div className="textcolor">
                 <h1>Signin form</h1>
                 <img src={profile} /><br /><br />
@@ -25,7 +30,7 @@ class Signinpage extends Component {
                     <SocialIcon url="http://facebook.com/jaketrent" />
                     <SocialIcon url="http://whatsapp.com/jaketrent" />
                 </div>
-               
+                </div>   
             </div>
         );
     }

@@ -1,36 +1,38 @@
 import React, { Component } from 'react';
+import Navbar from '../Navbar/Navbar';
+import Useroutput from '../Useroutput/Useroutput';
 
 class Userinput extends Component {
+    state = {
+        person: [{
+          name: "vasvigowda"
+        }]
+      }
+      buttonClickHandler = () => {
+        console.log("clicked");
+        this.setState({
+          person: [{
+            name: 'niveditha'
+          }]
+        })
+      }
     render() {
         return (
             <div>
-                <input type="text" name="name" placeholder="name"/>
+            <div>
+                <Navbar/>
+            </div>
+            <div>
+                <input type="text" name="name" placeholder="name"></input>
+                <input type="text" name="name" placeholder="lastname"></input>
+                <Useroutput age="22"/>
+                  <p>{this.state.person[0].name}</p>
+          <button onClick={this.buttonClickHandler}>clickhere</button>
+        <Useroutput age="22"/> 
+            </div>
             </div>
         );
     }
 }
 
 export default Userinput;
-
-
-
-
-// function App() {
-//    
-//     return (
-//       <div className="App">
-  
-//         <Router>
-//           <switch>
-//            <Route exact path='/' component={Userinput}></Route>
-//           {/* <Route exact path='/' component={Lifecycle}></Route> */}
-//             {/* <Route exact path='/' component={Signuppage}></Route>
-//             <Route exact path='/Signinpage' component={Signinpage}></Route> */}
-//           </switch>
-//           <Useroutput age="22"/>
-//           <Useroutput age="22"/>
-//         <p>{this.state.person[0].name}</p>
-//         </Router>
-//       </div>
-//     );
-//   }

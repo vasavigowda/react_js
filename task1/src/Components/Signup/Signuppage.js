@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 import './Signuppage.css';
+import Navbar from '../Navbar/Navbar';
 
 class Signuppage extends Component {
     render() {
         return (
+            <div>
+        <div>
+        <Navbar/>
+        <br/><br/><br/>
+        </div>
             <div className="textcolor">
                 <h1>Sign up form </h1>
                 <form className="form">
@@ -17,7 +23,8 @@ class Signuppage extends Component {
                     I agree to terms and Privacy Policies<br /><br />
                     <button className="button">Sign up</button>
                 </form>
-                <a href="Signinpage">Signup</a>
+                <a href="/Signinpage">Signin</a>
+            </div>
             </div>
         );
     }

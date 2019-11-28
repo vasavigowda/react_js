@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  Bind from './Bind.js';
-
+import Navbar from '../Navbar/Navbar.js';
 
 class Bind_func extends React.Component {
   constructor(props) {

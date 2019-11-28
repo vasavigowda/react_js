@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from '../Navbar/Navbar';
 
 class Lifecycle extends Component {
    constructor(props){
@@ -13,7 +14,9 @@ class Lifecycle extends Component {
     }
     render() {
         return (
+
             <div>
+                <Navbar/>
                 <h1>hello world</h1>
             </div>
         );
