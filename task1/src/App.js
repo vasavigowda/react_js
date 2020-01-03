@@ -18,13 +18,13 @@ class App extends Component {
      
         <Router>
         <switch>
-        <Route exact path='/' component={API}></Route> 
-        {/* <Route exact path='/bind_func' component={Bind_func}></Route> 
+        <Route exact path='/api' component={API}></Route> 
+        <Route exact path='/bind_func' component={Bind_func}></Route> 
         <Route exact path='/lifecycle' component={Lifecycle}></Route> 
         <Route exact path='/userinput' component={Userinput}></Route> 
         <Route exact path='/state' component={State}></Route> 
         <Route exact path='/' component={Signuppage}></Route>
-        <Route exact path='/Signinpage' component={Signinpage}></Route>  */}
+        <Route exact path='/Signinpage' component={Signinpage}></Route> 
         </switch>
         </Router>
       </div>

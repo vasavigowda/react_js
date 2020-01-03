@@ -13,7 +13,7 @@ const Data_display = ({ list,list1 }) => {
         <h1>Api List</h1>
       {list1.map((contact) => (
           <div>
-          <h2>{contact.id}</h2>
+          
           <h2>{contact.name}</h2>
           <h2>{contact.email}</h2>
         </div>

@@ -4,7 +4,7 @@ import Data_display from './Data_display';
 class API extends Component {
   render() {
     return (
-      <Data_display list={this.state.list} list1={this.state.list1}/>
+    <Data_display list={this.state.list} list1={this.state.list1}/>
     )
   }
   state = {
